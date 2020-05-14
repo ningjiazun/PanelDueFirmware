@@ -664,7 +664,117 @@ const StringTable LanguageTables[NumLanguages] =
 			"Pohasnout při nečinnosti",
 			"Pohasnout vždy"
 		}
-	}
+	},
+	// 简体中文
+	{
+		// ISO-639.1 language code
+		"zh",
+
+		// Main page strings
+		"控制",
+		"打印",
+		"控制台",
+		"设置",
+		"当前Current" THIN_SPACE DEGREE_SYMBOL "C",
+		"活动Active" THIN_SPACE DEGREE_SYMBOL "C",
+		"待机Standby" THIN_SPACE DEGREE_SYMBOL "C",
+		"移动Move",
+		"挤出机Extrusion",
+		"宏Macro",
+		"停止STOP",
+
+		// Print page
+		"挤出机Extruder" THIN_SPACE "%",
+		"速度Speed ",							// note space at end
+		"风扇Fan ",								// note space at end
+		"剩余时间Time left: ",
+		"文件file ",							// note space at end
+		", 细丝filament ",						// note space at end
+		", 层layer ",							// note space at end
+		"无n/a",
+		"暂停Pause",
+		"微调Baby step",
+		"恢复Resume",
+		"取消Cancel",
+		"设置Set",
+
+		// Setup page
+		"音量Volume ",							// note space at end
+		"校准触摸Calibrate touch",
+		"镜像显示Mirror display",
+		"翻转显示Invert display",
+		"主题Theme",
+		"亮度-Brightness -",
+		"亮度+Brightness +",
+		"保存设置Save settings",
+		"清除设置Clear settings",
+		"保存并重启Save & Restart",
+		"信息超时Info timeout ",					// note space at end
+
+		// Misc
+		"确认恢复出厂Confirm factory reset",
+		"确认删除文件Confirm file delete",
+		"你确定吗？Are you sure?",
+		"Touch the spot",
+		"移动热端Move head",
+		"挤出长度Extrusion amount (mm)",
+		"速度Speed (mm/s)",
+		"挤出Extrude",
+		"回抽Retract",
+		"微调Baby stepping",
+		"当前Z轴偏移Current Z offset: ",
+		"消息Message",
+		"消息Messages",
+		"固件版本Panel Due firmware version ",	// note space at end
+		"响应Response",
+
+		// File popup
+		"SD内文件Files on card ",				// note the space on the end
+		"宏Macros",
+		"错误Error ",						// note the space at the end
+		" 正在访问SD卡accessing SD card",			// note the space at the start
+		"文件名Filename: ",
+		"大小Size: ",
+		"层高Layer height: ",
+		"对象高Object height: ",
+		"细丝Filament needed: ",
+		"切片软件Sliced by: ",
+		"最后修改Last modified: ",
+		"预计打印事件Estimated print time: ",
+		"模拟打印事件Simulated print time: ",
+		"模拟Simulate",
+
+		// Printer status strings
+		{
+			"正在连接Connecting",
+			"空闲Idle",
+			"正在打印Printing",
+			"加热Halted",
+			"正在启动Starting up",
+			"暂停Paused",
+			"忙Busy",
+			"正在暂停Pausing",
+			"正在恢复Resuming",
+			"固件上传Firmware upload",
+			"改变工具Changing tool",
+			"正在模拟Simulating",
+			"待机Standby"
+		},
+
+		// Theme names
+		{
+			"白色主题Light theme",
+			"黑色主题Dark theme 1",
+			"黑色主题Dark theme 2"
+		},
+
+		// Display dimming types
+		{
+			"从不Never dim",
+			"空闲Dim if idle",
+			"总是Always dim"
+		}
+ 	}
 };
 
 #endif /* SRC_STRINGS_HPP_ */
